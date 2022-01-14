@@ -1,23 +1,31 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.projects-name{
+    margin-left: 100px; 
+}
+.start-text{
+    font-size: 2em;
+}
 .menu-bars-name{
 display: flex;
 align-items: center;
-margin-top: 900px;
+margin-top: 40px;
 }
 .menu-bar{
-    margin-left: 700px;
+    margin-left: 350px;
 }
 nav a{
     text-decoration: none;
     color: black;
-    font-size: 500;
+    font-weight: 500;
+    margin-left: 30px;
 }
-/* Header style  */
+/*-------------
+ Header style 
+ -------------- */
 .container{
-    display: flex;
-    
+    display: flex;    
     
 }
 .heading{
@@ -39,7 +47,7 @@ nav a{
 .container img{
     width: 400px;
     height: 400px;
-    margin-left: 50px;
+    margin-left: 130px;
     margin-top: 50px;
 }
 
@@ -49,7 +57,7 @@ nav a{
     border: 2px solid whitesmoke;
     border-left: none;
     border-right: none;
-    margin: 50px 50px 50px 50px;
+    margin: 100px 100px 100px 100px;
     display: grid;
     grid-template-columns: repeat(7,1fr);
     justify-items: center;   
