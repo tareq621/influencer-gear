@@ -1,9 +1,24 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.menu-bars-name{
+display: flex;
+align-items: center;
+margin-top: 900px;
+}
+.menu-bar{
+    margin-left: 700px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 500;
+}
 /* Header style  */
 .container{
     display: flex;
+    
+    
 }
 .heading{
     width: 500px;
@@ -31,13 +46,11 @@ body{
 /* company logo style  */
 
 .company-logos{
-    border: 1px solid whitesmoke;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
+    border: 2px solid whitesmoke;
+    border-left: none;
+    border-right: none;
+    margin: 50px 50px 50px 50px;
     display: grid;
     grid-template-columns: repeat(7,1fr);
-    justify-items: center;
-    
-    
+    justify-items: center;   
 }
