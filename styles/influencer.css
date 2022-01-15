@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: auto;
 }
 .projects-name{
     margin-left: 100px; 
@@ -51,7 +52,9 @@ nav a{
     margin-top: 30px;
 }
 
-/* company logo style  */
+/*------------
+ company logo style
+ ----------- ---*/
 
 .company-logos{
     border: 2px solid whitesmoke;
@@ -62,7 +65,9 @@ nav a{
     grid-template-columns: repeat(7,1fr);
     justify-items: center;   
 }
-/* products style  */
+/*-----------------
+ products style
+ -----------------  */
 .title{
     text-align: center;
     margin-top: 60px;
@@ -87,20 +92,52 @@ nav a{
 height: 256px;
 }
 
+/* -----------
+see more style
+------------- */
+
 .more-product a{
     margin-left: 1035px;
     text-decoration: none;
     color: #E83A59;
-    }
- .fa-long-arrow-alt-right{
-    color: #E83A59;
+ } 
+ .fas.fa-long-arrow-alt-right{
+color:#E83A59 ;
+ }  
 
- }   
+ /* ----------
+ rating style
+ ----------  */
 
 .fa-star.filled{
 color:#FFC014;
 }
-.fa-star.half-star{
-    color: ;
+/*-------------
+ Footer style
+ -------------  */
+
+.my-footer{
+    height: 200px;
+    padding-top: 10px;
+    color: white;
+    background-color: #120E43;
+    text-align: center;
+
 }
+.footer-title{
+    color: #D9DBE1;
+
+}
+.social-media{
+    padding-top: 10px;
+}
+.social-media a{
+    margin: 10px;
+    color: whitesmoke;
+    
+}
+/* --------------
+Mobile devices
+-------------- */
+
 
