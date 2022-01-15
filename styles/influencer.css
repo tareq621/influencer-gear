@@ -86,13 +86,21 @@ nav a{
     width: 300px;
 height: 256px;
 }
-.product-info.fa-star.filled{
-    background-color: yellow;
-}
+
 .more-product a{
     margin-left: 1035px;
     text-decoration: none;
     color: #E83A59;
-    
+    }
+ .fa-long-arrow-alt-right{
+    color: #E83A59;
+
+ }   
+
+.fa-star.filled{
+color:#FFC014;
+}
+.fa-star.half-star{
+    color: ;
 }
 
